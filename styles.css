@@ -2,7 +2,7 @@
 
 *
 {
-	margin: 0;
+	margin: 5px;
 	padding: 0;
 	font-family: sans-serif;
 }
@@ -10,9 +10,8 @@
 div.wrapper
 {
 	position: relative;
-	width: 100%;
-	height: 650px;
-	background: #eff4fd;
+	background: #808080;
+	background-size: auto;
 }
 
 div.wrapper-2
@@ -37,7 +36,7 @@ nav ul li
 {
 	display: inline-block;
 	list-style: none;
-	margin: 30px;
+	margin:20px;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 	border-left: 3px solid black;
@@ -49,7 +48,7 @@ nav ul li a
 	text-decoration: none;
 	color: #000;
 	font-weight: bold;
-	margin: 10px;
+	margin: 20px;
 }
 
 nav ul li a:hover
@@ -85,11 +84,11 @@ div.main p
 
 div.images
 {
-	width: 45%;
+	width: 50%;
 	height: 70%;
 	position: absolute;
-	bottom: 0;
-	right: 100px;
+	bottom: -10px;
+	right: 300px;
 }
 
 div.images img 
@@ -98,8 +97,20 @@ div.images img
 	position: absolute;
 	left: 80%;
 	bottom: 0;
-	transform: translateX(-50%);
-	transform: bottom 1s, left 1s;
+}
+
+div.images img.girl
+{
+	height: 100%;
+	position: absolute;
+	left: 90%;
+	bottom: 0;
+	transition: 0.5s;
+}
+
+div.images img.girl:hover
+{
+	transform: scale(1.5);
 }
 
 div.main-images{
@@ -114,6 +125,7 @@ div.main-images img{
 	width: 500px;
 	margin-left: auto;
   	margin-right: auto;
+  	border: 10px solid black;
 }
 
 div.main-images h2{
@@ -135,4 +147,100 @@ div.main1
 	color: #212121;
 	padding-bottom: 5px;
 	margin: 5px;
+}
+
+div.fitnesstable 
+{
+	border: 10px solid black;
+	width: 300px;
+	height: 300px;
+	margin: 10px 10px 10px 0px;
+	margin-left: 500px;
+}
+
+div.fitnesstable h2
+{
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+
+div.fitnesstable ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.fitnesstable ul li
+{
+	margin: 0px;
+	text-align: center;
+	border-bottom: 3px solid black;
+	padding: 27px;
+
+}
+
+div.fitnesstable ul li a
+{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	padding: 1px 0px 1px 0px;
+	margin-bottom: 0;
+	background-color: #3286F7;
+	font-size: 20px;
+	transition: color 0.5s;
+}
+
+div.fitnesstable ul li a:hover
+{
+	color: black;
+}
+
+div.icons 
+{
+	margin-left: 100px;
+	padding: 5px;
+	margin-top: 50px;
+}
+
+div.icons img
+{
+	width: 100px;
+	transition: 0.5s;
+}
+
+div.icons img:hover 
+{
+	transform: scale(1.5);
+}
+
+div.workoutimg 
+{
+	margin-left: 5%;
+	margin-top: 15%;
+}
+
+div.workoutimg img
+{
+	width: 500px;
+	border: 10px solid black;
+	padding: 1px;
+	margin-top: 50px;
+}
+
+div.workoutdiscript
+{
+	line-height: 20px;
+	text-align: center;
+}
+
+div.workoutdiscript h2 b:hover
+{
+	color: skyblue;
 }
