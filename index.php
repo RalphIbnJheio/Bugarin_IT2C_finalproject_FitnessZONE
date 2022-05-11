@@ -13,7 +13,7 @@
 			<img src="photos/logo.PNG" class="logo">
 			<ul>
 				<li><a href="">HOME</a></li>	
-				<li><a href="">FITNESS</a></li>
+				<li><a href="fitness.php">FITNESS</a></li>
 				<li><a href="">NUTRITION</a></li>	
 				<li><a href="">PROGRAM</a></li>	
 				<li><a href="quotes.php">QUOTES</a></li>	
@@ -32,6 +32,11 @@
 		<div class="images">
 			<img src="photos/abstract.PNG" class="abstract">
 			<img src="photos/girl.PNG" class="girl">
+		</div>
+		<div class="icons">
+			<a href="https://twitter.com/" target="_blank"><img src="photos/icontwitter.PNG" class="icontwitter"></a>
+			<a href="https://www.facebook.com/" target="_blank"><img src="photos/iconfb.PNG"></a>
+			<a href="https://www.instagram.com/?hl=en" target="_blank"><img src="photos/iconig.PNG"></a>			
 		</div>
 	</div>
 </body>
