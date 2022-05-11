@@ -10,12 +10,12 @@
 <body>
 	<div class="wrapper-2">
 		<nav>
-			<img src="logo.PNG" class="logo">
+			<img src="photos/logo.PNG" class="logo">
 			<ul>
 				<li><a href="index.php">HOME</a></li>	
-				<li><a href="">FITNESS</a></li>
+				<li><a href="fitness.php">FITNESS</a></li>
 				<li><a href="">NUTRITION</a></li>	
-				<li><a href="">PROGRAM</a></li>	
+				<li><a href="program.php">PROGRAM</a></li>	
 				<li><a href="quotes.php">QUOTES</a></li>	
 			</ul>
 		</nav>
