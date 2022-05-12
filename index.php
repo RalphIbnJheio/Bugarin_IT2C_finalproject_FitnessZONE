@@ -36,8 +36,8 @@
 		<div class="icons">
 			<a href="https://twitter.com/i/flow/login" target="_blank"><img src="photos/icontwitter.PNG"></a>		
 			<a href="https://www.facebook.com/" target="_blank"><img src="photos/iconfb.PNG"></a>
-			<a href="https://www.instagram.com/" target="_blank"><img src="photos/iconig.PNG"></a>
-				
+			<a href="https://www.instagram.com/" target="_blank"><img src="photos/iconig.PNG"></a>		
 		</div>
+		<div class="footer"><p class="m-0 text-center text-white">Shape is part of the Instyle Beauty Group. © Copyright 2022. Ralph Ibn Jheio Bugarin. All Rights Reserved.</p></div>
 	</div>
 </body>
