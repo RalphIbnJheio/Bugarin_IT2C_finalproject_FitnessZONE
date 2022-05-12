@@ -14,7 +14,7 @@
 			<ul>
 				<li><a href="index.php">HOME</a></li>	
 				<li><a href="fitness.php">FITNESS</a></li>
-				<li><a href="">NUTRITION</a></li>	
+				<li><a href="nutrition.php">NUTRITION</a></li>	
 				<li><a href="program.php">PROGRAM</a></li>	
 				<li><a href="quotes.php">QUOTES</a></li>	
 			</ul>
