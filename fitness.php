@@ -14,7 +14,7 @@
 			<ul>
 				<li><a href="index.php">HOME</a></li>	
 				<li><a href="fitness.php">FITNESS</a></li>
-				<li><a href="">NUTRITION</a></li>	
+				<li><a href="nutrition.php">NUTRITION</a></li>	
 				<li><a href="program.php">PROGRAM</a></li>	
 				<li><a href="quotes.php">QUOTES</a></li>	
 			</ul>
@@ -28,10 +28,16 @@
 				<li><a href="quotes.php">Beginner Fitness Tips</a></li>
 				<li><a href="#Transportation">Workout Clothes</a></li>
 				<li><a href="#Events">HIIT</a></li>
-			</ul>			
-		</div>
+				<center><b>GOOD TRIVIA FACTS!</b></center>
+			</ul>	
 
-		</div>
-		
+		</div>	
+	</div>
+	<div class="right-side-bar">
+		<ul>
+			<li><a href="https://www.artsy.net/article/artsy-editorial-exercise-creative" target="_blank"><img src="photos/rightside.JPG"></a></li>
+			<li><a href="https://www.fitnessfirst.com.ph/membership/individual" target="_blank"><img src="photos/rightside1.JPG"></a></li>
+			<li><a href="https://theclubkona.com/" target="_blank"><img src="photos/rightside2.PNG"></a></li>
+		</ul>	
 	</div>
 </body>
