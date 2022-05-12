@@ -8,13 +8,14 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+	<div class="backimage"></div>
 	<div class="wrapper">
 		<nav>
 			<img src="photos/logo.PNG" class="logo">
 			<ul>
 				<li><a href="">HOME</a></li>	
 				<li><a href="fitness.php">FITNESS</a></li>
-				<li><a href="">NUTRITION</a></li>	
+				<li><a href="nutrition.php">NUTRITION</a></li>	
 				<li><a href="program.php">PROGRAM</a></li>	
 				<li><a href="quotes.php">QUOTES</a></li>	
 			</ul>
