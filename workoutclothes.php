@@ -15,7 +15,7 @@
 				<li><a href="fitness.php">BACK</a></li>
 				<li><a href="tips.php">Beginner Fitness Tips</a></li>
 				<li><a href="workoutclothes.php">Workout Clothes</a></li>
-				<li><a href="#Events">HIIT</a></li>		
+				<li><a href="HIIT.php">HIIT</a></li>		
 			</ul>
 		</nav>
 		<div class="main1">
