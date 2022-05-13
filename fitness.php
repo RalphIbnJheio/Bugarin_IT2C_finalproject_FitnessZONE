@@ -25,7 +25,7 @@
 		<div class="fitnesstable">
 			<h2>FITNESS</h2>
 			<ul>
-				<li><a href="quotes.php">Beginner Fitness Tips</a></li>
+				<li><a href="tips.php">Beginner Fitness Tips</a></li>
 				<li><a href="#Transportation">Workout Clothes</a></li>
 				<li><a href="#Events">HIIT</a></li>
 				<center><b>GOOD TRIVIA FACTS!</b></center>
