@@ -12,11 +12,10 @@
 		<nav>
 			<img src="photos/logo.PNG" class="logo">
 			<ul>
-				<li><a href="index.php">HOME</a></li>	
-				<li><a href="fitness.php">FITNESS</a></li>
-				<li><a href="nutrition.php">NUTRITION</a></li>	
-				<li><a href="program.php">PROGRAM</a></li>	
-				<li><a href="quotes.php">QUOTES</a></li>	
+				<li><a href="fitness.php">BACK</a></li>
+				<li><a href="tips.php">Beginner Fitness Tips</a></li>
+				<li><a href="workoutclothes.php">Workout Clothes</a></li>
+				<li><a href="HIIT.php">HIIT</a></li>	
 			</ul>
 		</nav>
 		<div class="main1">
