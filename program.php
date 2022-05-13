@@ -26,7 +26,7 @@
 		<div class="workoutimg">
 			<center><img src="photos/chest day.JPG"></center>
 			<div class="workoutdiscript">
-				<h2><b><a href="">Chest Workout</a></b></h2>
+				<h2><b><a href="chest.php">Chest Workout</a></b></h2>
 				<?php
 					echo "With chest workouts, you'll notice a majority of benefits in your pectoralis major and", "<br>";
 					echo "pectoralis minor. These muscles make up your “pecs,” which comprise most of your chest.";
@@ -35,7 +35,7 @@
 
 			<center><img src="photos/back day.JPG"></center>
 			<div class="workoutdiscript">
-				<h2><b><a href="">Back Workout</a></b></h2>
+				<h2><b><a href="back.php">Back Workout</a></b></h2>
 				<?php
 					echo "Exercising the back reduces stiffness by keeping the connective fibers of ligaments and", "<br/>";
 					echo "tendons flexible. Improved mobility through back exercise helps to prevent the connective", "<br/>"; 
@@ -45,7 +45,7 @@
 
 			<center><img src="photos/leg day.PNG"></center>
 			<div class="workoutdiscript">
-				<h2><b><a href="">Leg Workout</a></b></h2>
+				<h2><b><a href="leg.php">Leg Workout</a></b></h2>
 				<?php
 					echo "Leg workouts are an important aspect of a balanced, whole-body fitness routine", "<br/>";
 					echo "that builds strength, speed, and stability";
@@ -64,7 +64,7 @@
 
 			<center><img src="photos/bicep workout.JPG"></center>
 			<div class="workoutdiscript">
-				<h2><b><a href="">Biceps Workout</a></b></h2>
+				<h2><b><a href="biceps.php">Biceps Workout</a></b></h2>
 				<?php
 					echo "A proper biceps workout is key to building stronger arms and increasing your power to lift.", "<br/>";
 					echo "The benefits of stronger biceps are not only for better aesthetics but also for better pulling", "<br/>";
