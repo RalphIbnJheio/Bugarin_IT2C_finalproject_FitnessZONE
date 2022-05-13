@@ -26,8 +26,8 @@
 			<h2>FITNESS</h2>
 			<ul>
 				<li><a href="tips.php">Beginner Fitness Tips</a></li>
-				<li><a href="#Transportation">Workout Clothes</a></li>
-				<li><a href="#Events">HIIT</a></li>
+				<li><a href="workoutclothes.php">Workout Clothes</a></li>
+				<li><a href="HIIT.php">HIIT</a></li>
 				<center><b>GOOD TRIVIA FACTS!</b></center>
 				<?php 
 					echo "1. The human body has 650 muscles.", "<br>";
