@@ -22,7 +22,6 @@
 			<h1> Benefits of <span> HIIT </span></h1>
 		</div>
 		<center><div class="Ftips">
-			<center><img src="photos/1clothes.JPG" class="1clothes"></center>
 			<?php
 
 			 echo"<h3><b>What is high intensity interval training?</b></h3> <p>HIIT involves short bursts of intense exercise alternated with low intensity recovery periods. Interestingly, it is perhaps the most time-efficient way to exercise.</p>", "<br>";
