@@ -45,7 +45,6 @@
 		<div class="images">
 			<img src="photos/abstract.PNG" class="abstract">
 			<img src="photos/girl.PNG" class="girl">
-			<img src="">
 		</div>
 		<div class="icons">
 			<a href="https://www.instagram.com/" target="_blank"><img src="photos/iconig.PNG"></a>

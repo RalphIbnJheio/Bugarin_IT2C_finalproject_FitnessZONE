@@ -43,15 +43,7 @@
 			 echo "<p>Proteins help in making you feel full for longer. It activates the body's signals that reduce appetite, overeating and cravings. This occurs because of a drop in hunger hormone ghrelin and a rise in peptide, GLP-1, cholecystokinin and YY - the fullness hormones</p>.", "<br>";
 			 echo "<p>What's more is that eating breakfasts with more protein can help you cut belly fat. Protein from foods sources have been found to be inversely related to belly fat. This means that the more high protein foods you eat, the lesser will your belly fat be. Studies have found that eating protein for breakfast can help in weight loss, especially in those who have a lot of weight to lose.</p>", "<br>";
 			 echo "<p>So, firstly make sure that you don't skip breakfast as it is the most important meal of the day. Secondly, include protein-rich foods in your breakfast like eggs, fish, milk, seafood, meat, nuts, seeds and tofu to name a few. These foods will be an amazing addition to your weight loss diet and will make losing weight much easier for you.</p>";
-
-
 			?>
-		<div class="nutritioncontent">
-			
-			
-			
-		</div>
-
 		</div>
 		
 	</div>

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE Bugarin_BSIT-2C_finalproject_FitnessZone [
+	<!ELEMENT Bugarin_BSIT-2C_finalproject_FitnessZone (index, fitness, nutrition, program, quotes)>
+
+	<!ELEMENT index (head, body)>
+	<!ELEMENT head (link, title)>
+	<!ELEMENT body (wrapper, main, images, icons, footer)>
+	<!ELEMENT wrapper (navigation)>
+	<!ELEMENT images (img)>
+	<!ELEMENT icons (icon)>
+	<!ELEMENT footer (content)>
+	<!ELEMENT content (paragraph)>
+
+	<!ELEMENT fitness (head, body)>
+	<!ELEMENT head (link, title)>
+	<!ELEMENT body (wrapper-2, left-side-bar, main1, fitnesstable, right-side-bar)>
+	<!ELEMENT wrapper-2 (navigation)>
+	<!ELEMENT left-side-bar (img)>
+	<!ELEMENT main1 (h2)>
+	<!ELEMENT fitnesstable (tips, workoutclothes, HIIT, strength, cardio)>
+	<!ELEMENT right-side-bar (img)>	
+
+	<!ELEMENT tips (head, body)>
+	<!ELEMENT body (wrapper-2)>
+	<!ELEMENT wrapper-2 (navigation, main1, Ftips)>
+	<!ELEMENT navigation (nav)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT Ftips (content)>
+
+	<!ELEMENT workoutclothes (head, body)>
+	<!ELEMENT body (wrapper-2)>
+	<!ELEMENT wrapper-2 (navigation, main1, Ftips)>
+	<!ELEMENT navigation (nav)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT contentClothes (content)>
+
+	<!ELEMENT HIIT (head, body)>
+	<!ELEMENT body (wrapper-2)>
+	<!ELEMENT wrapper-2 (navigation, main1, Ftips)>
+	<!ELEMENT navigation (nav)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT Ftips (content)>
+
+	<!ELEMENT strength (head, body)>
+	<!ELEMENT body (wrapper-2)>
+	<!ELEMENT wrapper-2 (navigation, main1, Ftips)>
+	<!ELEMENT navigation (nav)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT Ftips (content)>
+
+	<!ELEMENT cardio (head, body)>
+	<!ELEMENT body (wrapper-2)>
+	<!ELEMENT wrapper-2 (navigation, main1, Ftips)>
+	<!ELEMENT navigation (nav)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT Ftips (content)>
+
+	<!ELEMENT nutrition (head, body)>
+	<!ELEMENT body (wrapper-2)>
+	<!ELEMENT wrapper-2 (navigation, main1, imageLeft, imageRight, imageLeft1)>
+	<!ELEMENT navigation (nav)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT imageLeft (content)>
+	<!ELEMENT imageRight (content)>
+	<!ELEMENT imageLeft1 (content)>
+
+	<!ELEMENT program (chest, back, leg, abs, biceps, triceps)>
+	<!ELEMENT chest (head, body)>
+	<!ELEMENT head (title, link)>
+	<!ELEMENT body (wrapper-2, main1, Ftips)>
+	<!ELEMENT wrapper-2 (navigation)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT Ftips (content)>
+
+	<!ELEMENT back (head, body)>
+	<!ELEMENT head (title, link)>
+	<!ELEMENT body (wrapper-2, main1, Ftips)>
+	<!ELEMENT wrapper-2 (navigation)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT Ftips (content)>
+
+	<!ELEMENT abs (head, body)>
+	<!ELEMENT head (title, link)>
+	<!ELEMENT body (wrapper-2, main1, Ftips)>
+	<!ELEMENT wrapper-2 (navigation)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT Ftips (content)>
+
+	<!ELEMENT leg (head, body)>
+	<!ELEMENT head (title, link)>
+	<!ELEMENT body (wrapper-2, main1, Ftips)>
+	<!ELEMENT wrapper-2 (navigation)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT Ftips (content)>
+
+	<!ELEMENT biceps (head, body)>
+	<!ELEMENT head (title, link)>
+	<!ELEMENT body (wrapper-2, main1, Ftips)>
+	<!ELEMENT wrapper-2 (navigation)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT Ftips (content)>
+
+	<!ELEMENT triceps (head, body)>
+	<!ELEMENT head (title, link)>
+	<!ELEMENT body (wrapper-2, main1, Ftips)>
+	<!ELEMENT wrapper-2 (navigation)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT Ftips (content)>
+
+	<!ELEMENT quotes (head, body)>
+	<!ELEMENT body (wrapper-2)>
+	<!ELEMENT wrapper-2 (navigation, main1, main-images)>
+	<!ELEMENT navigation (nav)>
+	<!ELEMENT main1 (h1)>
+	<!ELEMENT main-images (h2)>
+
+	<!ELEMENT index (#PCDATA)>
+	<!ELEMENT head (#PCDATA)>
+	<!ELEMENT body (#PCDATA)>
+	<!ELEMENT wrapper (#PCDATA)>
+	<!ELEMENT navigation (#PCDATA)>
+	<!ELEMENT main (#PCDATA)>
+	<!ELEMENT images (#PCDATA)>
+	<!ELEMENT icons (#PCDATA)>
+	<!ELEMENT footer (#PCDATA)>
+	<!ELEMENT content (#PCDATA)>
+	<!ELEMENT fitness (#PCDATA)>
+	<!ELEMENT wrapper-2 (#PCDATA)>
+	<!ELEMENT left-side-bar (#PCDATA)>
+	<!ELEMENT main1 (#PCDATA)>
+	<!ELEMENT fitnesstable (#PCDATA)>
+	<!ELEMENT tips (#PCDATA)>
+	<!ELEMENT workoutclothes (#PCDATA)>
+	<!ELEMENT HIIT (#PCDATA)>
+	<!ELEMENT strength (#PCDATA)>
+	<!ELEMENT cardio (#PCDATA)>
+	<!ELEMENT right-side-bar (#PCDATA)>
+	<!ELEMENT nutrition (#PCDATA)>
+	<!ELEMENT imageLeft (#PCDATA)>
+	<!ELEMENT imageRight (#PCDATA)>
+	<!ELEMENT imageLeft1 (#PCDATA)>
+	<!ELEMENT program (#PCDATA)>
+	<!ELEMENT chest (#PCDATA)>
+	<!ELEMENT back (#PCDATA)>
+	<!ELEMENT leg (#PCDATA)>
+	<!ELEMENT abs (#PCDATA)>
+	<!ELEMENT biceps (#PCDATA)>
+	<!ELEMENT triceps (#PCDATA)>
+	<!ELEMENT image-description (#PCDATA)>
+	<!ELEMENT quotes (#PCDATA)>
+	<!ELEMENT h2 (#PCDATA)>
+	<!ELEMENT h1 (#PCDATA)>
+
+	<!ATTLIST link stylesheet CDATA #REQUIRED>
+	<!ATTLIST link href CDATA #REQUIRED>
+	<!ATTLIST nav-1 link CDATA #REQUIRED>
+	<!ATTLIST nav-2 link CDATA #REQUIRED>
+	<!ATTLIST nav-3 link CDATA #REQUIRED>
+	<!ATTLIST nav-4 link CDATA #REQUIRED>
+	<!ATTLIST nav-5 link CDATA #REQUIRED>
+	<!ATTLIST nav-6 link CDATA #REQUIRED>
+	<!ATTLIST nav-7 link CDATA #REQUIRED>
+	<!ATTLIST img type CDATA #REQUIRED>
+	<!ATTLIST icon id CDATA #REQUIRED>
+
+]>
+
+<Bugarin_BSIT-2C_finalproject_FitnessZone>
+	<index>
+		<head>
+			<title>Fitness ZONE</title>
+			<link rel="stylesheet" href="styles.css">stylesheet</link>	
+		</head>
+		<body>
+			<wrapper>
+				<navigation>
+					<image type="png">logo</image>
+					<nav-1 link="index.php">HOME</nav-1>
+					<nav-2 link="fitness.php">FITNESS</nav-2>
+					<nav-3 link="nutrition.php">NUTRITION</nav-3>
+					<nav-4 link="program.php">PROGRAM</nav-4>
+					<nav-5 link="quotes.php">QUOTES</nav-5>
+				</navigation>
+			</wrapper>
+
+			<main>
+				<main-title> FITNESS ZONE </main-title>
+				<content>
+					<paragraph>Website overview</paragraph>
+				</content>
+			</main>
+
+			<images>
+				<img type="png">abstract</img>
+				<img type="png">girl</img>
+			</images>
+
+			<icons>
+				<icon id="1">instagram</icon>
+				<icon id="2">twitter</icon>
+				<icon id="3">facebook</icon>
+			</icons>
+
+			<footer>
+				<content>
+					<paragraph>
+						Shape is part of the Instyle Beauty Group. © Copyright
+						Ralph Ibn Jheio Bugarin. All Rights Reserved.
+					</paragraph>
+				</content>
+			</footer>
+		</body>
+	</index>
+	<fitness>
+		<head>
+			<title>Fitness ZONE</title>
+			<link rel="stylesheet" href="styles.css">stylesheet</link>	
+		</head>
+		<body>
+			<wrapper-2>
+				<navigation>
+					<image type="png">logo</image>
+					<nav-1 link="index.php">HOME</nav-1>
+					<nav-2 link="fitness.php">FITNESS</nav-2>
+					<nav-3 link="nutrition.php">NUTRITION</nav-3>
+					<nav-4 link="program.php">PROGRAM</nav-4>
+					<nav-5 link="quotes.php">QUOTES</nav-5>
+				</navigation>
+			</wrapper-2>
+			<left-side-bar>
+				<img type="png" href="https://www.artsy.net/article/artsy-editorial-exercise-creative" >gymrats</img>
+			</left-side-bar>
+			<main1>
+				<h1>Fitness DIARY</h1>
+			</main1>
+			<fitnesstable>
+				<h2>FITNESS</h2>
+				
+				<tips>
+					<head>
+						<title>Fitness ZONE</title>
+						<link rel="stylesheet" href="styles.css">stylesheet</link>	
+					</head>
+					<body>
+						<wrapper-2>
+							<navigation>
+								<nav-1 link="fitness.php">FITNESS</nav-1>
+								<nav-2 link="tips.php">NUTRITION</nav-2>
+								<nav-3 link="workoutclothes.php">PROGRAM</nav-3>
+								<nav-4 link="HIIT.php">QUOTES</nav-4>
+								<nav-5 link="strength.php">QUOTES</nav-5>
+								<nav-6 link="cardio.php">QUOTES</nav-6>
+							</navigation>
+							<main1><h1>10 Beginners Fitness Tips</h1></main1>
+							<Ftips>
+								<content>
+									paragraph
+								</content>
+							</Ftips>
+						</wrapper-2>
+					</body>		
+				</tips>
+
+				<workoutclothes>
+					<head>
+						<title>Fitness ZONE</title>
+						<link rel="stylesheet" href="styles.css">stylesheet</link>	
+					</head>
+					<body>
+						<wrapper-2>
+							<navigation>
+								<nav-1 link="fitness.php">FITNESS</nav-1>
+								<nav-2 link="tips.php">NUTRITION</nav-2>
+								<nav-3 link="workoutclothes.php">PROGRAM</nav-3>
+								<nav-4 link="HIIT.php">QUOTES</nav-4>
+								<nav-5 link="strength.php">QUOTES</nav-5>
+								<nav-6 link="cardio.php">QUOTES</nav-6>
+							</navigation>
+							<main1><h1>Workout Clothes</h1></main1>
+							<contentClothes>
+								<content>
+									paragraph
+								</content>
+							</contentClothes>
+						</wrapper-2>
+					</body>		
+				</workoutclothes>
+
+				<HIIT>
+					<head>
+						<title>Fitness ZONE</title>
+						<link rel="stylesheet" href="styles.css">stylesheet</link>	
+					</head>
+						<body>
+							<wrapper-2>
+								<navigation>
+									<nav-1 link="fitness.php">FITNESS</nav-1>
+									<nav-2 link="tips.php">NUTRITION</nav-2>
+									<nav-3 link="workoutclothes.php">PROGRAM</nav-3>
+									<nav-4 link="HIIT.php">QUOTES</nav-4>
+									<nav-5 link="strength.php">QUOTES</nav-5>
+									<nav-6 link="cardio.php">QUOTES</nav-6>
+								</navigation>
+								<main1><h1>Benefits of HIIT</h1></main1>
+							</wrapper-2>
+							<Ftips>
+								<content>
+									paragraph
+								</content>
+							</Ftips>
+						</body>	
+				</HIIT>
+				<strength>
+					<head>
+						<title>Fitness ZONE</title>
+						<link rel="stylesheet" href="styles.css">stylesheet</link>	
+					</head>
+					<body>
+						<wrapper-2>
+							<navigation>
+								<nav-1 link="fitness.php">FITNESS</nav-1>
+								<nav-2 link="tips.php">NUTRITION</nav-2>
+								<nav-3 link="workoutclothes.php">PROGRAM</nav-3>
+								<nav-4 link="HIIT.php">QUOTES</nav-4>
+								<nav-5 link="strength.php">QUOTES</nav-5>
+								<nav-6 link="cardio.php">QUOTES</nav-6>
+							</navigation>
+							<main1><h1>Benefits of HIIT</h1></main1>
+						</wrapper-2>
+						<Ftips>
+							<content>
+								paragraph
+							</content>
+						</Ftips>
+					</body>
+				</strength>
+
+				<cardio>
+					<head>
+						<title>Fitness ZONE</title>
+						<link rel="stylesheet" href="styles.css">stylesheet</link>	
+					</head>
+					<body>
+						<wrapper-2>
+							<navigation>
+								<nav-1 link="fitness.php">FITNESS</nav-1>
+								<nav-2 link="tips.php">NUTRITION</nav-2>
+								<nav-3 link="workoutclothes.php">PROGRAM</nav-3>
+								<nav-4 link="HIIT.php">QUOTES</nav-4>
+								<nav-5 link="strength.php">QUOTES</nav-5>
+								<nav-6 link="cardio.php">QUOTES</nav-6>
+							</navigation>
+							<main1><h1>Benefits of Cardio</h1></main1>
+						</wrapper-2>
+						<Ftips>
+							<content>
+								paragraph
+							</content>
+						</Ftips>
+					</body>
+				</cardio>
+			</fitnesstable>
+			<right-side-bar>
+				<img type="jpg" href="https://www.artsy.net/article/artsy-editorial-exercise-creative" >rightside</img>
+				<img type="jpg" href="https://www.fitnessfirst.com.ph/membership/individual" >rightside1</img>
+				<img type="png" href="https://theclubkona.com/" >rightside2</img>
+			</right-side-bar>
+		</body>
+	</fitness>
+	<nutrition>
+		<head>
+			<title>Fitness ZONE</title>
+			<link rel="stylesheet" href="styles.css">stylesheet</link>	
+		</head>
+		<body>
+			<wrapper-2>
+				<navigation>
+					<image type="png">logo</image>
+					<nav-1 link="index.php">HOME</nav-1>
+					<nav-2 link="fitness.php">FITNESS</nav-2>
+					<nav-3 link="nutrition.php">NUTRITION</nav-3>
+					<nav-4 link="program.php">PROGRAM</nav-4>
+					<nav-5 link="quotes.php">QUOTES</nav-5>
+				</navigation>
+				<main1><h1>Benefits of HIIT</h1></main1>
+				<imageLeft>
+					<content>
+						paragraph
+					</content>
+				</imageLeft>
+				<imageRight>
+					<content>
+						paragraph
+					</content>
+				</imageRight>
+				<imageLeft1>
+					<content>
+						paragraph
+					</content>
+				</imageLeft1>
+			</wrapper-2>
+		</body>		
+	</nutrition>
+
+	<program>
+		<chest>
+			<head>
+				<title>Fitness ZONE</title>
+				<link rel="stylesheet" href="styles.css">stylesheet</link>	
+			</head>
+			<body>
+				<wrapper-2>
+					<nav-1 link="program.php">Go Back</nav-1>
+					<nav-2 link="chest.php">chest</nav-2>
+					<nav-3 link="back.php">back</nav-3>
+					<nav-4 link="leg.php">leg</nav-4>
+					<nav-5 link="abs.php">abs</nav-5>
+					<nav-6 link="biceps.php">biceps</nav-6>
+					<nav-7 link="triceps.php">triceps</nav-7>
+				</wrapper-2>
+				<main1><h1> CHEST <span> Workout </span></h1></main1>
+				<Ftips>
+					<content>
+						paragraph
+					</content>
+				</Ftips>
+			</body>
+		</chest>
+
+		<back>
+			<head>
+				<title>Fitness ZONE</title>
+				<link rel="stylesheet" href="styles.css">stylesheet</link>	
+			</head>
+			<body>
+				<wrapper-2>
+					<nav-1 link="program.php">Go Back</nav-1>
+					<nav-2 link="chest.php">chest</nav-2>
+					<nav-3 link="back.php">back</nav-3>
+					<nav-4 link="leg.php">leg</nav-4>
+					<nav-5 link="abs.php">abs</nav-5>
+					<nav-6 link="biceps.php">biceps</nav-6>
+					<nav-7 link="triceps.php">triceps</nav-7>
+				</wrapper-2>
+				<main1><h1> BACK <span> Workout </span></h1></main1>
+				<Ftips>
+					<content>
+						paragraph
+					</content>
+				</Ftips>
+			</body>
+		</back>
+
+		<abs>
+			<head>
+				<title>Fitness ZONE</title>
+				<link rel="stylesheet" href="styles.css">stylesheet</link>	
+			</head>
+			<body>
+				<wrapper-2>
+					<nav-1 link="program.php">Go Back</nav-1>
+					<nav-2 link="chest.php">chest</nav-2>
+					<nav-3 link="back.php">back</nav-3>
+					<nav-4 link="leg.php">leg</nav-4>
+					<nav-5 link="abs.php">abs</nav-5>
+					<nav-6 link="biceps.php">biceps</nav-6>
+					<nav-7 link="triceps.php">triceps</nav-7>
+				</wrapper-2>
+				<main1><h1> ABDOMINAL <span> Workout </span></h1></main1>
+				<Ftips>
+					<content>
+						paragraph
+					</content>
+				</Ftips>
+			</body>
+		</abs>
+
+		<leg>
+			<head>
+				<title>Fitness ZONE</title>
+				<link rel="stylesheet" href="styles.css">stylesheet</link>	
+			</head>
+			<body>
+				<wrapper-2>
+					<nav-1 link="program.php">Go Back</nav-1>
+					<nav-2 link="chest.php">chest</nav-2>
+					<nav-3 link="back.php">back</nav-3>
+					<nav-4 link="leg.php">leg</nav-4>
+					<nav-5 link="abs.php">abs</nav-5>
+					<nav-6 link="biceps.php">biceps</nav-6>
+					<nav-7 link="triceps.php">triceps</nav-7>
+				</wrapper-2>
+				<main1><h1> LEG <span> Workout </span></h1></main1>
+				<Ftips>
+					<content>
+						paragraph
+					</content>
+				</Ftips>
+			</body>
+		</leg>
+
+		<biceps>
+			<head>
+				<title>Fitness ZONE</title>
+				<link rel="stylesheet" href="styles.css">stylesheet</link>	
+			</head>
+			<body>
+				<wrapper-2>
+					<nav-1 link="program.php">Go Back</nav-1>
+					<nav-2 link="chest.php">chest</nav-2>
+					<nav-3 link="back.php">back</nav-3>
+					<nav-4 link="leg.php">leg</nav-4>
+					<nav-5 link="abs.php">abs</nav-5>
+					<nav-6 link="biceps.php">biceps</nav-6>
+					<nav-7 link="triceps.php">triceps</nav-7>
+				</wrapper-2>
+				<main><h1> BICEPS <span> Workout </span></h1></main>
+				<Ftips>
+					<content>
+						paragraph
+					</content>
+				</Ftips>
+			</body>
+		</biceps>
+
+		<triceps>
+			<head>
+				<title>Fitness ZONE</title>
+				<link rel="stylesheet" href="styles.css">stylesheet</link>	
+			</head>
+			<body>
+				<wrapper-2>
+					<nav-1 link="program.php">Go Back</nav-1>
+					<nav-2 link="chest.php">chest</nav-2>
+					<nav-3 link="back.php">back</nav-3>
+					<nav-4 link="leg.php">leg</nav-4>
+					<nav-5 link="abs.php">abs</nav-5>
+					<nav-6 link="biceps.php">biceps</nav-6>
+					<nav-7 link="triceps.php">triceps</nav-7>
+				</wrapper-2>
+				<main1><h1> TRICEPS <span> Workout </span></h1></main1>
+				<Ftips>
+					<content>
+						paragraph
+					</content>
+				</Ftips>
+			</body>
+		</triceps>	
+	</program>
+
+	<quotes>
+		<head>
+			<title>Fitness ZONE</title>
+			<link rel="stylesheet" href="styles.css">stylesheet</link>	
+		</head>
+		<body>
+			<wrapper-2>
+				<navigation>
+					<image type="png">logo</image>
+					<nav-1 link="index.php">HOME</nav-1>
+					<nav-2 link="fitness.php">FITNESS</nav-2>
+					<nav-3 link="nutrition.php">NUTRITION</nav-3>
+					<nav-4 link="program.php">PROGRAM</nav-4>
+					<nav-5 link="quotes.php">QUOTES</nav-5>
+				</navigation>
+				<main1><h1>MOTIVATIONAL QUOTES</h1></main1>
+				<main-images>
+					<image-description>
+						<image type="png">ROCK</image>
+						<h2><b>Dwayne “The Rock” Johnson</b></h2>
+						<content>
+						paragraph
+						</content>
+						<image type="jpg">LEE</image>
+						<h2><b>Bruce Lee</b></h2>
+						<content>
+						paragraph
+						</content>
+						<image type="jpg">waldo</image>
+						<h2><b>Ralph Waldo Emerson</b></h2>
+						<content>
+						paragraph
+						</content>
+						<image type="jpg">phelps</image>
+						<h2><b>Michael Phelps</b></h2>
+						<content>
+						paragraph
+						</content>
+						<image type="jpg">Arnold</image>
+						<h2><b>Arnold Schwarzenegger</b></h2>
+						<content>
+						paragraph
+						</content>
+					</image-description>
+				</main-images>
+			</wrapper-2>
+		</body>
+	</quotes>	
+</Bugarin_BSIT-2C_finalproject_FitnessZone>

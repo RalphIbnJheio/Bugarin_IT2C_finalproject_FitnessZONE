@@ -68,8 +68,6 @@
 			 echo "<h3><b>5. FLAT DUMBBELL PRESS</b></h3> <p>* Sets: 4</p>", "<br>";
 			 echo "<p>* Reps: 10-12</p>", "<br>";
 			 echo "<p>* Rest Time: 1 minute</p>", "<br>";
-
-
 			?>
 		</div>
 	</div>

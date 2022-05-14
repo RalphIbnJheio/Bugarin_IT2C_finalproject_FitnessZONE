@@ -75,8 +75,8 @@
 				<li><a href="tips.php">Beginner Fitness Tips</a></li>
 				<li><a href="workoutclothes.php">Workout Clothes</a></li>
 				<li><a href="HIIT.php">HIIT</a></li>
-				<li><a href="HIIT.php">Strength Training</a></li>
-				<li><a href="HIIT.php">Cardio</a></li>
+				<li><a href="strength.php">Strength Training</a></li>
+				<li><a href="cardio.php">Cardio</a></li>
 				<center><b>GOOD TRIVIA FACTS!</b></center>
 				<?php 
 					echo "1. The human body has 650 muscles.", "<br>";
@@ -96,7 +96,5 @@
 			<li><a href="https://www.fitnessfirst.com.ph/membership/individual" target="_blank"><img src="photos/rightside1.JPG"></a></li>
 			<li><a href="https://theclubkona.com/" target="_blank"><img src="photos/rightside2.PNG"></a></li>
 		</ul>	
-	</div>
-	<div class="left-side-bar">
-	</div>
+	</div>	
 </body>
