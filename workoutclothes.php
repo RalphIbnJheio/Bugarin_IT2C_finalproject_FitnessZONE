@@ -6,6 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fitness ZONE</title>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		div.contentClothes p 
+		{
+			text-align: justify;
+			padding: 0 400px 0 400px;
+		}
+	</style>
 </head>
 <body>
 	<div class="wrapper-2">
@@ -25,7 +32,7 @@
 
 
 			<center><img src="photos/1clothes.JPG" class="1clothes"></center>
-			<p><b>SWEAT-WICKING & BREATHABILITY</b></p>
+			<h3><b><center>SWEAT-WICKING & BREATHABILITY</center></b></h3>
 			
 			<?php 
 				echo "<p>Due to the fact that you’re going to be sweating a lot during your workouts, it helps to have the appropriate clothes. And having breathable fabrics (like the specialty fabric found in Endeavor Athletic's apparel) that wick away moisture and keep you feeling cool and dry is going to make a tremendous difference in how you feel.</p>", "<br>";
