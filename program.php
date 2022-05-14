@@ -54,7 +54,7 @@
 
 			<center><img src="photos/abs workout.JPG"></center>
 			<div class="workoutdiscript">
-				<h2><b><a href="">Abs Workout</a></b></h2>
+				<h2><b><a href="abs.php">Abs Workout</a></b></h2>
 				<?php
 					echo "A strong core ( strong abs) is one of the keys in the prevention of back pain.", "<br/>";
 					echo "A strong core will help you look better and improve performance in a host of sports but", "<br/>";
@@ -74,7 +74,7 @@
 
 			<center><img src="photos/tricep workout.JPG"></center>
 			<div class="workoutdiscript">
-				<h2><b><a href="">Triceps Workout</a></b></h2>
+				<h2><b><a href="triceps.php">Triceps Workout</a></b></h2>
 				<?php
 					echo "Working out your triceps helps to build upper body strength and is an essential", "<br/>";
 					echo "part of any strength training routine. Strong triceps stabilize your shoulder joint and are", "<br/>";
