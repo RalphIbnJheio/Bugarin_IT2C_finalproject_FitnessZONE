@@ -6,6 +6,48 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fitness ZONE</title>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		div.fitnesstable 
+			{
+				border: 10px solid black;
+				width: 300px;
+				height: 475px;
+				margin: 10px 10px 10px 0px;
+				margin-left: 500px;
+			}
+		div.left-side-bar
+			{
+				width: 240px;
+				float: left;
+				height: 500px;
+				margin: 10px 0px 10px -150px;
+			}
+
+		div.left-side-bar ul
+			{
+				margin: 0px;
+				padding: 20px;
+			}
+
+		div.left-side-bar ul li
+			{
+				list-style-type: none;
+			}
+
+		div.left-side-bar ul li img
+			{
+				height: 800px;
+				width: 500px;
+				margin: 5% auto;
+				transition: 0.5s;
+			}
+
+		div.left-side-bar ul li img:hover
+			{
+				transform: scale(1.5);
+			}
+
+	</style>
 </head>
 <body>
 	<div class="wrapper-2">
@@ -19,6 +61,11 @@
 				<li><a href="quotes.php">QUOTES</a></li>	
 			</ul>
 		</nav>
+		<div class="left-side-bar">
+		<ul>
+			<li><a href="https://www.artsy.net/article/artsy-editorial-exercise-creative" target="_blank"><img src="photos/gymrats.PNG"></a></li>
+		</ul>	
+	</div>
 		<div class="main1">
 			<h1>FITNESS <span> DIARY </span></h1>
 		</div>
@@ -28,6 +75,8 @@
 				<li><a href="tips.php">Beginner Fitness Tips</a></li>
 				<li><a href="workoutclothes.php">Workout Clothes</a></li>
 				<li><a href="HIIT.php">HIIT</a></li>
+				<li><a href="HIIT.php">Strength Training</a></li>
+				<li><a href="HIIT.php">Cardio</a></li>
 				<center><b>GOOD TRIVIA FACTS!</b></center>
 				<?php 
 					echo "1. The human body has 650 muscles.", "<br>";
