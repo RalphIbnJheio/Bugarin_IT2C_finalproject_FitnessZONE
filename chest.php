@@ -16,9 +16,9 @@
 				<li><a href="chest.php">CHEST</a></li>
 				<li><a href="back.php">BACK</a></li>
 				<li><a href="leg.php">LEG</a></li>	
-				<li><a href=".php">ABS</a></li>	
+				<li><a href="abs.php">ABS</a></li>	
 				<li><a href="biceps.php">BICEPS</a></li>	
-				<li><a href=".php">TRICEPS</a></li>	
+				<li><a href="triceps.php">TRICEPS</a></li>	
 			</ul>
 		</nav>
 		<div class="main1">
