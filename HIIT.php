@@ -6,6 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fitness ZONE</title>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		div.Ftips
+		{
+			padding: 0 400px 0 400px;
+			text-align: justify;
+		}
+
+	</style>
 </head>
 <body>
 	<div class="wrapper-2">
@@ -25,7 +33,6 @@
 			<?php
 
 			 echo"<h3><b>What is high intensity interval training?</b></h3> <p>HIIT involves short bursts of intense exercise alternated with low intensity recovery periods. Interestingly, it is perhaps the most time-efficient way to exercise.</p>", "<br>";
-			 echo "<br>";
 			 echo"<p>Typically, a HIIT workout will be 10–30 minutes in duration.</p>", "<br>";
 			 echo"<p>Despite how short the workout is, it can produce health benefits similar to twice as much moderate-intensity exercise.</p>", "<br>";
 			 echo"<p>The actual activity being performed varies but can include sprinting, biking, jumping rope, or other bodyweight exercises.</p>", "<br>";
