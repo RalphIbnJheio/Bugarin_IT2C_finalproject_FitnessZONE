@@ -10,8 +10,6 @@
 div.wrapper
 {
 	position: relative;
-	/*background: #808080;
-	background-size: auto; #eff4fd*/
 }
 
 div.wrapper-2
@@ -49,6 +47,7 @@ nav ul li a
 	color: #000;
 	font-weight: bold;
 	margin: 20px;
+	transition: 0.5s;
 }
 
 nav ul li a.active
@@ -59,6 +58,7 @@ nav ul li a.active
 nav ul li a:hover
 {
 	color: skyblue;
+	transform: scale(1.5);
 }
 
 div.main 
